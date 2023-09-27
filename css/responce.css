@@ -3,11 +3,11 @@
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 	
-	  .signIn{
-		scale: 1.8;
+	.signIn{
+		/* scale: 1.8; */
 		position: relative;
-		top: 226px;
-		right: 10%;
+		/* top: 226px;
+		right: 10%; */
 		}
 		.mainimg{
 			margin: 0 43%;
@@ -31,14 +31,8 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-	
- }
-
-/* // Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-	
 	.signIn{
-		scale: 1;
+		/* scale: 1; */
 		position:static;
 	}
 	.mainimg{
@@ -59,6 +53,12 @@
 	.nav{
 		justify-content: space-around;
 	}
+ }
+
+/* // Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	
+	
 	
  	}
 
